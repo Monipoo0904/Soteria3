@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD1E3FEE288AE8D400C374FB /* ResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1E3FED288AE8D400C374FB /* ResourceViewController.swift */; };
+		BD1E3FF0288AEC6100C374FB /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1E3FEF288AEC6100C374FB /* ChatViewController.swift */; };
 		BD32EB2D28874B1500744395 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD32EB2C28874B1500744395 /* AppDelegate.swift */; };
 		BD32EB2F28874B1500744395 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD32EB2E28874B1500744395 /* SceneDelegate.swift */; };
 		BD32EB3128874B1500744395 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD32EB3028874B1500744395 /* ViewController.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD1E3FED288AE8D400C374FB /* ResourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceViewController.swift; sourceTree = "<group>"; };
+		BD1E3FEF288AEC6100C374FB /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		BD32EB2928874B1500744395 /* locationMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = locationMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD32EB2C28874B1500744395 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD32EB2E28874B1500744395 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 		BD32EB2028874B1400744395 = {
 			isa = PBXGroup;
 			children = (
+				BD1E3FEF288AEC6100C374FB /* ChatViewController.swift */,
 				BD32EB2B28874B1500744395 /* locationMap */,
 				BD32EB4528874B1700744395 /* locationMapTests */,
 				BD32EB4F28874B1700744395 /* locationMapUITests */,
@@ -113,6 +118,7 @@
 				BD990C0C2888755F00B9236A /* LoginViewController.swift */,
 				FD163C98288AAFA80068D2CE /* CallViewController.swift */,
 				BD32EB3228874B1500744395 /* Main.storyboard */,
+				BD1E3FED288AE8D400C374FB /* ResourceViewController.swift */,
 				BD32EB3828874B1700744395 /* Assets.xcassets */,
 				BD32EB3A28874B1700744395 /* LaunchScreen.storyboard */,
 				BD32EB3D28874B1700744395 /* Info.plist */,
@@ -269,7 +275,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD1E3FEE288AE8D400C374FB /* ResourceViewController.swift in Sources */,
 				FD163C99288AAFA80068D2CE /* CallViewController.swift in Sources */,
+				BD1E3FF0288AEC6100C374FB /* ChatViewController.swift in Sources */,
 				BD32EB3128874B1500744395 /* ViewController.swift in Sources */,
 				BD32EB2D28874B1500744395 /* AppDelegate.swift in Sources */,
 				BD32EB2F28874B1500744395 /* SceneDelegate.swift in Sources */,
